@@ -46,7 +46,7 @@ const Courses = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Our Courses
           </h2>
-          <div className="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
+          <div className="w-24 h-1 bg-[#E97F3C] mx-auto mb-4"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Choose from our wide range of courses designed to help you achieve your academic and career goals
           </p>
@@ -77,14 +77,14 @@ const Courses = () => {
               </div>
               {/* Course Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-[#E97F3C] transition-colors duration-300">
                   {course.title}
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm">
                   {course.description}
                 </p>
                 <div className="flex items-center justify-between">
-                  <span className="inline-flex items-center text-blue-600 font-semibold text-sm group-hover:text-blue-700">
+                  <span className="inline-flex items-center text-[#E97F3C] font-semibold text-sm group-hover:text-[#D16D2F]">
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2 transform transition-transform duration-300 group-hover:translate-x-2"
@@ -100,7 +100,7 @@ const Courses = () => {
                       />
                     </svg>
                   </span>
-                  <span className="bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">
+                  <span className="bg-[#E97F3C] text-white px-3 py-1 rounded-full text-sm font-medium">
                     Enroll Now
                   </span>
                 </div>
@@ -112,7 +112,7 @@ const Courses = () => {
         <div className="text-center mt-12">
           <Link
             to="/all-courses"
-            className="inline-flex items-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            className="inline-flex items-center px-8 py-3 bg-[#E97F3C] text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:bg-[#D16D2F] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           >
             View All Courses
             <svg

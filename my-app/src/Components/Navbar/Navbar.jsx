@@ -21,7 +21,7 @@ const Navbar = () => {
     { path: '/enquiry', label: 'ENQUIRY' },
   ];
   return (
-    <>
+    <div className="sticky top-0 z-50">
       {/* Special Offer Banner */}
       <div className="w-full bg-yellow-300 py-3 text-center">
         <h2 className="text-2xl font-bold text-red-500">
@@ -106,7 +106,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 export default Navbar;
