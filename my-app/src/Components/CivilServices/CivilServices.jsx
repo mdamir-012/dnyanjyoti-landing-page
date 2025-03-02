@@ -134,33 +134,14 @@ const CourseSection = ({ title, courses }) => {
 };
 const CivilServices = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-[#f8f9fa]">
 
-      <div className="container mx-auto px-4 mt-16">
+      <div className="container mx-auto px-4">
         {/* Civil Services Section */}
         <CourseSection title="Civil Services" courses={civilServicesData} />
         {/* Engineering & Medical Section */}
         <CourseSection title="Engineering & Medical Courses" courses={engineeringMedicalData} />
-        {/* CTA Section */}
-        {/* <div className="mt-16 text-center">
-          <div className="bg-[#4A2912] rounded-2xl p-8 md:p-12">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Start Your Journey Today
-            </h3>
-            <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join Dnyanjyoti's comprehensive coaching programs and take the first step towards your dream career
-            </p>
-            <Link
-              to="/contact"
-              className="inline-flex items-center px-8 py-4 bg-[#E97F3C] text-white font-semibold rounded-lg transition-all duration-300 hover:bg-[#D16D2F]"
-            >
-              Schedule Free Classes
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
-        </div> */}
+
       </div>
       <DemoClassBanner />
     </section>
